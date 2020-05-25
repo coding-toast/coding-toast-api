@@ -4,7 +4,6 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "client": "mongo",
         "database": "coding-toast-api",
         "host": "cluster0-5sncc.mongodb.net/test?retryWrites=true",
         "srv": "true",
