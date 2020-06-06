@@ -15,14 +15,11 @@
     "description": {
       "type": "string"
     },
-    "author": {
-      "type": "string"
-    },
     "banner": {
       "type": "string"
     },
-    "publishDate": {
-      "type": "date"
+    "url": {
+      "type": "string"
     }
   }
 }
