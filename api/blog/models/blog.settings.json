@@ -10,10 +10,14 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "description": {
-      "type": "string"
+      "type": "text",
+      "maxLength": 200,
+      "required": true
     },
     "banner": {
       "type": "string"
@@ -23,6 +27,11 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }
