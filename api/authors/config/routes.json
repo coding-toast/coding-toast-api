@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/testcollections",
-      "handler": "testcollection.find",
+      "path": "/authors",
+      "handler": "authors.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/testcollections/count",
-      "handler": "testcollection.count",
+      "path": "/authors/count",
+      "handler": "authors.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/testcollections/:id",
-      "handler": "testcollection.findOne",
+      "path": "/authors/:id",
+      "handler": "authors.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/testcollections",
-      "handler": "testcollection.create",
+      "path": "/authors",
+      "handler": "authors.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/testcollections/:id",
-      "handler": "testcollection.update",
+      "path": "/authors/:id",
+      "handler": "authors.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/testcollections/:id",
-      "handler": "testcollection.delete",
+      "path": "/authors/:id",
+      "handler": "authors.delete",
       "config": {
         "policies": []
       }
